@@ -1,0 +1,56 @@
+/* font-family: "Roboto", sans-serif; */
+body{
+    font-family:"Roboto", sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(225, 233, 237);
+}
+.container{
+    border: 1px;
+    background-color: white;
+    padding: 40px 70px 60px 70px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 15px;
+}
+.container .subscribe{
+    text-align: center;
+    font-size: 12px;
+}
+.container .email button{
+    padding:14px 40px ;
+    font-size: 10px;
+    margin-left: 5px;
+    background-color: rgb(56, 145, 228);
+    border: 1px solid rgb(56, 145, 228);
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px -6px 10px rgb(255, 255, 255),0px 3px 10px  rgb(56, 145, 228);
+}
+.container .email input{
+    margin-top: 15px;
+    padding: 10px 60px 10px 20px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px;
+}
+input::placeholder {
+    color: black;
+    font-weight: 400;
+    font-size: 10px;
+}
+.container .agree input{
+    margin:15px 5px -5px 0px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.container .agree p{
+    font-size: 9px;
+    width: 200px;
+    margin-top: 5px;
+    display: inline-block;
+}
